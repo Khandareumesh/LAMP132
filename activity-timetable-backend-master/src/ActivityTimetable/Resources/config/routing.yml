@@ -1,0 +1,11 @@
+ActivityTimetablePublicApiProject:
+    type:     rest
+    resource: ActivityTimetable\Controller\PublicApi\ProjectController
+
+ActivityTimetablePublicApiTask:
+    type:     rest
+    resource: ActivityTimetable\Controller\PublicApi\TaskController
+
+ActivityTimetablePublicApiCalculation:
+    type:     rest
+    resource: ActivityTimetable\Controller\PublicApi\CalculationController

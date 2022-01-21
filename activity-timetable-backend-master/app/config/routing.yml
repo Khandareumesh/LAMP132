@@ -1,0 +1,10 @@
+# Nelmio
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+
+# Api
+ActivityTimetablePublicApi:
+    resource: @ActivityTimetableBundle/Resources/config/routing.yml
+    type: rest
+    prefix: /api/v1

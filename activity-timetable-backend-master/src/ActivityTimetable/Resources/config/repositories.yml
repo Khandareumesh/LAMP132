@@ -1,0 +1,13 @@
+services:
+
+    activity_timetable.repository.task:
+        class: ActivityTimetable\Entity\Repository\TaskRepository
+        factory_service: doctrine.orm.default_entity_manager
+        factory_method: getRepository
+        arguments: ['ActivityTimetableBundle:Task']
+
+    activity_timetable.repository.project:
+        class: ActivityTimetable\Entity\Repository\ProjectRepository
+        factory_service: doctrine.orm.default_entity_manager
+        factory_method: getRepository
+        arguments: ['ActivityTimetableBundle:Project']
